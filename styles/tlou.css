@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Press Gothic";
+    src: url('../assets/fonts/tlou/PressGothicPro.eot');
+    src: url('../assets/fonts/tlou/PressGothicPro.eot') format('embedded-opentype'),
+         url('../assets/fonts/tlou/PressGothicPro.woff2') format('woff2'),
+         url('../assets/fonts/tlou/PressGothicPro.woff') format('woff'),
+         url('../assets/fonts/tlou/PressGothicPro.ttf') format('truetype');
+  }
+
+body{
+    color: white;
+    background-image: url('../assets/images/tlou/background.jpg');
+    background-size:cover;
+    font-family: "Press Gothic";
+
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.part1b{
+    display: flex;
+    justify-content: space-between;
+}
+.part1c{
+    display: flex;
+    justify-content:fl;
+    gap: 200px;
+}
+
