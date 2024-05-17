@@ -14,14 +14,19 @@ body{
     font-family: "Press Gothic";
 
 }
-.part1{
-    display: flex;
-    flex-direction: column;
+
+.grid_container{
+    display: grid;
     gap: 10px;
+    grid-template-rows: repeat(3,1fr);
 }
-.part1b{
-    display: flex;
-    justify-content: space-between;
+.grid_container2{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(6,1fr);
+}
+.grid_container img, .grid_container2 img{
+    width: 100%;
 }
 .part1c{
     display: flex;

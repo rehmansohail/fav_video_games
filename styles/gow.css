@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "berserker";
+    src: url('../assets/fonts/gow/Berserker-Regular.ttf') format('truetype');
+  }
+
+
+
+body{
+    background-image: url(../assets/images/gow/background.jpg);
+    color: white;
+    background-size: cover;
+    font-family: "berserker";
+    
+}
+.grid_container{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(4,1fr);
+}
+.grid_container img{
+    width: 100%;
+}
+.buy{
+    display: flex;
+    justify-content:fl;
+    gap: 200px;
+}
